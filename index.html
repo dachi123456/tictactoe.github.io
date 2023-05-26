@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="lobby">
+        <img src="./assets/logo.svg" alt="" class="logo">
+        
+        <div class="lobby-div">
+            <h5>PICK PLAYER 1’S MARK</h5>
+            <div class="choose">
+                <div class="select-x-or-o">
+                    <img src="./assets/icon-x.svg" alt="">
+                </div>
+                <div class="select-x-or-o">
+                    <img src="./assets/icon-o.svg" alt="">
+                </div>
+            </div>
+            <h6>REMEMBER : X GOES FIRST</h6>
+        </div>
+        <button class="vs-cpu">NEW GAME (VS CPU)</button>
+        <button class="vs-player">NEW GAME (VS PLAYER)</button>
+    </main>
+
+    <main class="field">
+        <header>
+            <img src="./assets/logo.svg" alt="">
+            <div class="whos-turn"><p>turn</p>
+            </div>
+            <div class="restart">
+                <img src="./assets/icon-restart.svg" alt="">
+            </div>
+        </header>
+
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <!-- scores -->
+            
+        </section>
+
+        <div class="x-won">
+            <span><img src="./assets/icon-x.svg"><h1>TAKES THE ROUND</h1></span>
+            <div class="win-btns">
+                <button class="quit">QUIT</button>
+                <button class="next-round">NEXT ROUND</button>
+            </div>
+        </div>
+        <div class="o-won">
+            <span><img src="./assets/icon-o.svg"><h1>TAKES THE ROUND</h1></span>
+            <div class="win-btns">
+                <button class="quit">QUIT</button>
+                <button class="next-round">NEXT ROUND</button>
+            </div>
+
+        </div>
+        <div class="draw-alert">
+            <span><h1>ROUND TIED</h1></span>
+            <div class="win-btns">
+                <button class="quit">QUIT</button>
+                <button class="next-round">NEXT ROUND</button>
+            </div>
+
+        </div>
+        <div class="restart-game">
+            <h1>RESTART GAME?</h1>
+            <div class="win-btns">
+            <button class="cancel">NO, CANCEL</button>
+            <button class="restart-btn">YES, RESTART</button>
+        </div>
+        
+        </div>
+    </main>
+    
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
